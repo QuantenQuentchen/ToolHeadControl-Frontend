@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tool_config_detail.ToolConfigDetail">
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:background="@color/control_arrow_left_background"
+        android:contentDescription="@string/Accept"
+        android:src="@drawable/control_arrow_up_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toolConfigDetailIBTrash"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <ImageButton
+        android:id="@+id/toolConfigDetailIBTrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:background="@color/ic_connection_indicator_no_bluetooth_background"
+        android:contentDescription="@string/Accept"
+        android:src="@drawable/tool_config_detail_trash_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <TextView
+        android:id="@+id/toolConfigDetailTVYCords"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="148dp"
+        android:text="Y-Cords:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/toolConfigDetailIBTrash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toolConfigDetailTVXCords"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="X-Cords:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/toolConfigDetailTVYCords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/toolCfgDetailTV"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_margin="10dp"
+        android:text="TextView"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/toolConfigDetailTVXCords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

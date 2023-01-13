@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">toolHeadAdjust</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sandros Shit</string>
+    <string name="nav_header_subtitle">Ka wie der des nennen will</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Presets</string>
+    <string name="menu_slideshow">Controls</string>
+    <string name="down">Down</string>
+    <string name="right">Right</string>
+    <string name="top">Top</string>
+    <string name="left">Left</string>
+    <string name="textview">TextView</string>
+    <string name="RowText">A-Textview</string>
+    <string name="zPosStr">Z:</string>
+    <string name="xPosStr">X:</string>
+    <string name="tool_connection_last_connection">Last Connection: %d</string>
+    <string name="tool_connection_last_connection_default">Never</string>
+    <string name="tool_connection_no_connection">No Connection</string>
+    <string name="tool_connection_connect">Connect</string>
+    <string name="tool_connection_disconnect">Disconnect</string>
+    <string name="menu_tool_connection">Tool Connections</string>
+    <string name="test_me">Test Me!</string>
+    <string name="x_position">X-Position:</string>
+    <string name="not_available">Not Available</string>
+    <string name="y_position">Y-Position:</string>
+    <string name="up_button_desc">Up</string>
+    <string name="button_right_desc">right</string>
+    <string name="up">up</string>
+    <string name="button_up">Up</string>
+    <string name="Accept">Accept</string>
+    <string name="Save_Config">Save Config</string>
+    <string name="ConnectTool">Connect Tool</string>
+    <string name="SendConfig">Send Config</string>
+    <string name="not_connected">Not Connected!</string>
+    <string name="y_coordinats">Y-Coordinats:</string>
+    <string name="name">Name:</string>
+    <string name="x_coordinats">X-Coordinats:</string>
+</resources>

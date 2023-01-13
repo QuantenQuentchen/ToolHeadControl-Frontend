@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_slideshow">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.toolheadadjust.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_home_to_toolConnectionFragment"
+            app:destination="@+id/ToolConnectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.toolheadadjust.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_gallery_to_toolConfigEdit"
+            app:destination="@id/nav_tool_config_edit" />
+        <action
+            android:id="@+id/action_nav_gallery_to_toolConfigDetail"
+            app:destination="@id/nav_tool_config_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.toolheadadjust.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_toolConfigEdit"
+            app:destination="@id/nav_tool_config_edit" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tool_connection"
+        android:name="com.example.toolheadadjust.ui.tool_connection.ToolConnectionFragment"
+        android:label="Connections"
+        tools:layout="@layout/fragment_tool_connection">
+        <action
+            android:id="@+id/action_nav_home_to_nav_tool_connection"
+            app:destination="@id/nav_tool_connection" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tool_config_edit"
+        android:name="com.example.toolheadadjust.ui.tool_config_edit.ToolConfigEdit"
+        android:label="Save Config"
+        tools:layout="@layout/fragment_tool_config_edit">
+        <argument
+            android:name="X-Cord"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="Y-Cord"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_toolConfigEdit_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_toolConfigEdit_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tool_config_detail"
+        android:name="com.example.toolheadadjust.ui.tool_config_detail.ToolConfigDetail"
+        android:label="Config Details"
+        tools:layout="@layout/fragment_tool_config_detail" >
+        <argument
+            android:name="Name"
+            app:argType="string"
+            android:defaultValue='"No Name"' />
+        <argument
+            android:name="XCord"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="YCord"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument android:name="index"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+</navigation>

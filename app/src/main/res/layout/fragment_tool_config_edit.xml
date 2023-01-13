@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tool_config_edit.ToolConfigEdit">
+
+    <EditText
+        android:id="@+id/xcordEditText"
+        android:layout_width="242dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/x_coordinats"
+        app:layout_constraintBottom_toTopOf="@+id/ycordEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="291dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/name"
+        app:layout_constraintBottom_toTopOf="@+id/xcordEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/ycordEditText"
+        android:layout_width="242dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/y_coordinats"
+        app:layout_constraintBottom_toTopOf="@+id/acceptBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
+
+    <ImageButton
+        android:id="@+id/acceptBtn"
+        android:layout_width="120dp"
+        android:layout_height="111dp"
+        android:background="@color/control_arrow_left_background"
+        android:contentDescription="@string/Accept"
+        android:src="@drawable/tool_cfg_edit_accept_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cancelBtn"
+        android:layout_width="120dp"
+        android:layout_height="111dp"
+        android:background="@color/ic_connection_indicator_no_bluetooth_background"
+        android:contentDescription="@string/Accept"
+        android:src="@drawable/tool_cfg_edit_cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
