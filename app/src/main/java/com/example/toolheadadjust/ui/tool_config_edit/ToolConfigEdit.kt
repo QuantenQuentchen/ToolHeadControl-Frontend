@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.navigation.findNavController
 import com.example.toolheadadjust.MainActivity
 import com.example.toolheadadjust.R
@@ -54,16 +55,21 @@ class ToolConfigEdit : Fragment() {
             mainActivity.onBackPressed()
         }
         AcceptBtn.setOnClickListener() {
-            mainActivity.mToolCfgAdapter.addItem(
-                ToolCfg(
-                    NameEditTxt.text.toString(),
-                    "X: " + XcordEditTxt.text.toString() + " Y: " + YcordEditTxt.text.toString(),
-                    XcordEditTxt.text.toString().toInt(),
-                    YcordEditTxt.text.toString().toInt(),
-                    Timestamp(System.currentTimeMillis())
+            if (NameEditTxt.text.toString() != "") {
+                mainActivity.mToolCfgAdapter.addItem(
+                    ToolCfg(
+                        NameEditTxt.text.toString(),
+                        "X: " + XcordEditTxt.text.toString() + " Y: " + YcordEditTxt.text.toString(),
+                        XcordEditTxt.text.toString().toInt(),
+                        YcordEditTxt.text.toString().toInt(),
+                        Timestamp(System.currentTimeMillis())
+                    )
                 )
-            )
-            mainActivity.findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.nav_gallery)
+                //mainActivity.findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.nav_gallery)
+                mainActivity.onBackPressed()
+            }else{
+                Toast.makeText(activity, "Bitte gib einen Namen ein!", Toast.LENGTH_LONG).show()
+            }
         }
 
         return root
