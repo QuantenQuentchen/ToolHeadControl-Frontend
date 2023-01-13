@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var mDataToolCfgList: ArrayList<ToolCfg>
     lateinit var mDBHelper: SQLiteManager
     lateinit var mToolCfgAdapter: ToolCfgAdapter
-    //lateinit var mToolcConfigArray: ArrayList<ToolConfig>
     companion object {
         const val REQUEST_ENABLE_BT = 1
         const val REQUEST_ACCESS_COARSE_LOCATION = 2
@@ -136,7 +135,7 @@ class MainActivity : AppCompatActivity() {
         mLiveDataCords._isConnected.observe(this, connectionObserver)
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_tool_connection,
+                R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_tool_connection,
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
