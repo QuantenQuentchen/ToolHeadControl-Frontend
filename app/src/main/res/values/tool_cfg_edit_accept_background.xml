@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="tool_cfg_edit_accept_background">#3DDC84</color>
+</resources>
