@@ -32,10 +32,10 @@
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/drawable/border.xml" value="0.378" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/drawable/presetIcon_background.xml" value="0.339" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/activity_main.xml" value="0.24700854700854702" />
-        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/app_bar_main.xml" value="0.24700854700854702" />
+        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/content_main.xml" value="0.24700854700854702" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_gallery.xml" value="0.37905982905982905" />
-        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_home.xml" value="0.37905982905982905" />
+        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_slideshow.xml" value="0.30440359127832406" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_tool_config_detail.xml" value="0.3333333333333333" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/fragment_tool_config_edit.xml" value="0.3333333333333333" />
@@ -49,9 +49,11 @@
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/tool_control_simple.xml" value="0.24700854700854702" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/layout/tool_cord_display_interactive.xml" value="0.24700854700854702" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/menu/activity_main_drawer.xml" value="0.24700854700854702" />
+        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/menu/main.xml" value="0.10833333333333334" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/mipmap-anydpi-v26/ToolCfgAcceptArt.xml" value="0.209" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/mipmap-anydpi-v26/control_arrow_down.xml" value="0.339" />
         <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/mipmap-anydpi-v26/presetIcon.xml" value="0.339" />
+        <entry key="..\:/Proggo/Projects/Wis Khalifa Master Debatieren/Android Frontend/toolHeadAdjust/app/src/main/res/xml/root_preferences.xml" value="0.2764957264957265" />
       </map>
     </option>
   </component>

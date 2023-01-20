@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         filter.addAction(BluetoothDevice.ACTION_FOUND)
         filter.addAction(BluetoothDevice.ACTION_NAME_CHANGED)
         filter.addAction(BluetoothDevice.ACTION_PAIRING_REQUEST)
-        filter.addAction(BluetoothDevice.ACTION_UUID)
+        //filter.addAction(BluetoothDevice.ACTION_UUID)
         //filter.addAction(BluetoothAdapter.STATE_CONNECTING)
         this.registerReceiver(mBroadcastReceiver, filter)
 
